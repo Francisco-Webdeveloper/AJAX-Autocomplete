@@ -38,5 +38,7 @@ https://wagon-dictionary.herokuapp.com/autocomplete/unde
 https://wagon-dictionary.herokuapp.com/autocomplete/under
 etc.
 ```
-
 When the API returns the JSON, the job here is to update the `ul#results` list with suggestions!
+
+## Other information
+You can also check the code and a preview 👉  https://codepen.io/francisco-frontend/pen/vYmZQBq
