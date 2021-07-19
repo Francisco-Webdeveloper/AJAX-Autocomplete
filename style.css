@@ -7,13 +7,33 @@ body {
 
 #container {
   height: 50vh;
-  width: 50vh;
+  width: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #container input {
-  width: 100%;
+  width: 75%;
   height: 32px;
   line-height: 32px;
   font-size: 24px;
   padding: 0 4px;
+  text-align: center;
+}
+
+#container h1 {
+  width: 75%;
+  font-size: 24px;
+  text-align: center;
+}
+
+#container #results {
+  padding-left: 0;
+}
+
+#container #results li {
+  list-style: none;
+  text-align: center;
 }
